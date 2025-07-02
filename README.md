@@ -1,41 +1,67 @@
-🛳️ Titanic Survival Prediction – Data Cleaning & ML Project
-This project is part of my 14-day Python learning journey, focused on real-world data analysis and machine learning using the Titanic dataset. The goal was to clean the data, engineer useful features, and build a logistic regression model to predict survival.
+🛳️ Titanic Survival Analysis with Python
+This project is part of my 14-day Python roadmap where I used the Titanic dataset to build a machine learning model that predicts survival outcomes. The goal was to go from raw data to a clean, model-ready dataset and apply data analysis, visualization, and ML techniques — all using Python.
 
-📁 Files
-titanic_cleaned.csv – Final cleaned dataset ready for ML.
+🚀 What This Project Covers
+✅ Data loading and inspection with pandas
 
-titanic_notebook.ipynb – Jupyter notebook with all preprocessing steps and model training.
+✅ Data cleaning (handling missing values, dropping irrelevant features)
 
-🔧 What I Did
-✅ Loaded and explored the Titanic dataset
-✅ Cleaned missing data (Age, Embarked)
-✅ Engineered new features (FamilySize, Title)
-✅ Encoded categorical variables (Sex, Embarked, Title)
-✅ Scaled numerical values (Age, Fare, SibSp, Parch)
-✅ Built and trained a logistic regression model
-✅ Evaluated model accuracy and predictions
+✅ Feature engineering (e.g. extracting titles, creating family size)
 
-📊 Tools Used
-Python
+✅ Categorical encoding and data transformation
+
+✅ Visualization (bar plots, heatmaps)
+
+✅ Machine learning model training (Logistic Regression)
+
+✅ Evaluation (Accuracy, Precision, Recall, F1 Score)
+
+📊 Dataset
+Source: Titanic survival dataset (train.csv from Kaggle)
+
+Total rows: 891
+
+Target variable: Survived (0 = No, 1 = Yes)
+
+📁 Files in This Repo
+titanic_cleaned.csv — Final cleaned dataset
+
+titanic_analysis.ipynb — Full Jupyter notebook with code and explanations
+
+README.md — This file
+
+🔧 Tech Stack
+Python 3
 
 pandas, NumPy
 
+matplotlib, seaborn
+
 scikit-learn
 
-seaborn, matplotlib
+🧠 Key Insights
+Passengers with families had slightly higher survival rates.
 
-Jupyter Notebook
+Female passengers had significantly better survival outcomes.
+
+First-class passengers had the highest chances of survival.
+
+Certain titles (like “Master” and “Mrs”) had predictive value.
 
 📈 Model Performance
-Accuracy Score: 0.79 (approximate, may vary)
+Accuracy: 0.79
 
-Model: Logistic Regression
+Precision: 0.73
 
-💡 What I Learned
-Data preprocessing is crucial before ML
+Recall: 0.73
 
-Feature engineering boosts model understanding
+F1 Score: 0.73
 
-scikit-learn makes training/testing easy
+💡 What's Next?
+Try Decision Trees or Random Forest
 
-Clean code & comments make analysis easier to follow
+Build a web app using Streamlit to visualize predictions
+
+Apply same pipeline to a different dataset (like Titanic Test.csv)
+
+🧑‍💻 Built by Prasad
