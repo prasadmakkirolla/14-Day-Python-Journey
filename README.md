@@ -1,5 +1,13 @@
+🧪 14-Day Python Learning Journey
+These projects are part of my 14-day hands-on Python roadmap.
+
+🗂️ Days 1–8: I practiced Python basics, loops, functions, data cleaning, and analysis using a small fictional HR dataset inspired by the TV show “Parks and Recreation.”
+
+🛳️ Days 9–14: I applied all those skills to a real-world dataset — the Titanic survival dataset from Kaggle — culminating in a complete machine learning project.
+
+
 🛳️ Titanic Survival Analysis with Python
-This project is part of my 14-day Python roadmap where I used the Titanic dataset to build a machine learning model that predicts survival outcomes. The goal was to go from raw data to a clean, model-ready dataset and apply data analysis, visualization, and ML techniques — all using Python.
+I used the Titanic dataset to build a machine learning model that predicts survival outcomes. The goal was to go from raw data to a clean, model-ready dataset and apply data analysis, visualization, and ML techniques — all using Python.
 
 🚀 What This Project Covers
 ✅ Data loading and inspection with pandas
